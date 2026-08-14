@@ -1,6 +1,6 @@
 from huggingface_hub import snapshot_download
 
-from ... import config
+from src import config
 
 if __name__ == "__main__":
     print(f"Downloading event extraction model: {config.HF_MODEL_REPO_ID}")
