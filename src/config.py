@@ -4,7 +4,7 @@ from pathlib import Path
 
 SUMMARIZER_MODEL_NAME = "IlyaGusev/rut5_base_sum_gazeta"
 
-HF_MODEL_REPO_ID = os.getenv("HF_MODEL_REPO_ID", "ksruasdh/temporal-causal-graph-extractor")
+HF_MODEL_REPO_ID = "ksruasdh/temporal-causal-graph-extractor"
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DATA_PATH = REPO_ROOT / "data" / "df_text2graph.jsonl"
